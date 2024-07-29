@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #cdf0cb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,14 +43,14 @@ select {
 button {
   padding: 10px 20px;
   border: none;
-  background-color: #28a745;
+  background-color: #1bb63f;
   color: white;
   border-radius: 4px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: #104b1d;
 }
 
 .task-list {
@@ -94,7 +94,7 @@ li.completed {
 }
 
 li button {
-  background-color: #dc3545;
+  background-color: #ee4e5e;
   border: none;
   color: white;
   padding: 5px 10px;
