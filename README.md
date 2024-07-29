@@ -25,4 +25,4 @@ Uma aplicação simples para gerenciar tarefas de estudo com a opção de organi
 5. Clique em "Adicionar" para inserir a tarefa na lista correspondente.
 6. Passe o mouse sobre uma tarefa para ver os botões de completar e excluir.
 
-#### Aplicação ainda não responsiva :(
+##### Obs: Aplicação ainda não responsiva :(
