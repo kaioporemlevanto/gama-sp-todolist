@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+    <h1>Lista de Estudos</h1>
+    <div class="input-group">
+        <input type="text" id="new-task" placeholder="Digite uma nova tarefa...">
+        <select id="day-select">
+            <option value="default">Escolha um dia...</option>
+            <option value="monday">Segunda-feira</option>
+            <option value="tuesday">Terça-feira</option>
+            <option value="wednesday">Quarta-feira</option>
+            <option value="thursday">Quinta-feira</option>
+            <option value="friday">Sexta-feira</option>
+            <option value="saturday">Sábado</option>
+            <option value="sunday">Domingo</option>
+        </select>
+        <button id="add-task">Adicionar</button>
+    </div>
+    <div class="week-container">
+        <div class="task-list" id="monday-list">
+            <h3>Segunda-feira</h3>
+            <ul id="task-list-monday"></ul>
+        </div>
+        <div class="task-list" id="tuesday-list">
+            <h3>Terça-feira</h3>
+            <ul id="task-list-tuesday"></ul>
+        </div>
+        <div class="task-list" id="wednesday-list">
+            <h3>Quarta-feira</h3>
+            <ul id="task-list-wednesday"></ul>
+        </div>
+        <div class="task-list" id="thursday-list">
+            <h3>Quinta-feira</h3>
+            <ul id="task-list-thursday"></ul>
+        </div>
+        <div class="task-list" id="friday-list">
+            <h3>Sexta-feira</h3>
+            <ul id="task-list-friday"></ul>
+        </div>
+        <div class="task-list" id="saturday-list">
+            <h3>Sábado</h3>
+            <ul id="task-list-saturday"></ul>
+        </div>
+        <div class="task-list" id="sunday-list">
+            <h3>Domingo</h3>
+            <ul id="task-list-sunday"></ul>
+        </div>
+    </div>
+</div>
+<p id="signature">Feito por Kaio Lima</p>
+<script src="script.js"></script>
+
+</html>
